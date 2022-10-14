@@ -1,0 +1,56 @@
+/*
+ * Increase the line width a bit for my larger screen.
+ */
+body {
+  --file-line-width: 800px;
+}
+
+/*
+ * Improve the look of an empty bullet item, when reading.
+ */
+.has-list-bullet li {
+  min-height: calc(var(--font-text-size) * var(--line-height-normal));
+}
+
+/*
+ * Improve the padding and add rounded corners to rendered code blocks.
+ */
+.HyperMD-codeblock.HyperMD-codeblock-begin.HyperMD-codeblock-begin-bg.HyperMD-codeblock-bg.cm-line{
+  padding-top: var(--size-4-4);
+  border-radius: var(--size-4-4) var(--size-4-4) 0 0;
+}
+
+.HyperMD-codeblock.HyperMD-codeblock-end.HyperMD-codeblock-end.HyperMD-codeblock-bg.cm-line {
+  padding-bottom: var(--size-2-2);
+  border-radius: 0 0 var(--size-4-4) var(--size-4-4);
+}
+
+/*
+ * Add top margin to level one and two headers.
+ */
+.markdown-source-view .HyperMD-header.HyperMD-header-1.cm-line,
+.markdown-source-view .HyperMD-header.HyperMD-header-2.cm-line {
+  margin-top: 15px !important;
+}
+
+/*
+ * Add bottom margin to level one headers.
+ */
+.markdown-source-view .HyperMD-header.HyperMD-header-1.cm-line {
+  margin-bottom: 15px;
+}
+
+/*
+ * Add bottom padding to level two headers and remove the border.
+ */
+.markdown-source-view .HyperMD-header.HyperMD-header-2.cm-line {
+  padding-bottom: 15px !important;
+  border: 0;
+}
+
+/*
+ * Improve the look of an empty bullet item, when editing.
+ */
+.markdown-source-view .cm-active.HyperMD-list-line.HyperMD-list-line-1.cm-line {
+  min-height: calc(var(--font-text-size) * var(--line-height-normal));
+}
