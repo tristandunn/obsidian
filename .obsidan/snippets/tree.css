@@ -2,6 +2,7 @@
  * Hide the Daily, Templates, and Views folders in the folder tree.
  */
 div.nav-folder-title[data-path="Daily"],
+div.nav-folder-title[data-path="Daily"] + .nav-folder-children,
 div.nav-folder-title[data-path="Templates"],
 div.nav-folder-title[data-path="Views"] {
   display: none;
