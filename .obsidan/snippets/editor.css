@@ -30,14 +30,14 @@ body {
  */
 .markdown-source-view .HyperMD-header.HyperMD-header-1.cm-line,
 .markdown-source-view .HyperMD-header.HyperMD-header-2.cm-line {
-  margin-top: 15px !important;
+  padding-top: 15px !important;
 }
 
 /*
  * Add bottom margin to level one headers.
  */
 .markdown-source-view .HyperMD-header.HyperMD-header-1.cm-line {
-  margin-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 /*
